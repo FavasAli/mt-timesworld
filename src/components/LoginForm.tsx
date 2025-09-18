@@ -25,7 +25,7 @@ const LoginForm: React.FC = () => {
   const navigate = useNavigate();
   const initialValues = {
     email: "",
-    password: "wW2@dedededd",
+    password: "",
   };
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const onSubmit = (data: any) => {

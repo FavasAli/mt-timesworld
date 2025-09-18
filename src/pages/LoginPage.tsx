@@ -9,7 +9,7 @@ import loginIllustration from "../assets/login-screen-image.png";
 
 const LoginPage: React.FC = () => {
   return (
-    <Container fluid className="login-container ">
+    <Container fluid className="login-container container">
       <Row className="w-100">
         <Col xs={12} md={8} className="left-column ">
           <div style={{ width: "364px" }}>
