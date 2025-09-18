@@ -34,7 +34,11 @@
 }
 
 .card {
-  padding: 2em;
+  padding: 1em;
+  border-radius: 0;
+box-shadow:  03px 5px 3px rgb(207, 207, 207);
+text-align: start;
+align-items: start;
 }
 
 .read-the-docs {
