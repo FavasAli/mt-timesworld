@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import LoginForm from "../components/LoginForm";
-import google_icon from "../assets/google_icon.svg";
+import google_icon from "../assets/google-logo.png";
 import facebook_icon from "../assets/facebook_icon.svg";
 import linkedin_icon from "../assets/linkedin_icon.svg";
 import twitter_icon from "../assets/twitter_icon.svg";
@@ -26,13 +26,24 @@ const LoginPage: React.FC = () => {
               <hr className="hr-line" />
             </div>
             <div className="d-flex justify-content-around align-items-center">
-              <Image
-                width={48}
-                height={48}
-                src={google_icon}
-                alt="Google Icon"
-                fluid
-              />
+              <div
+                style={{
+                  backgroundColor: "black",
+                  padding: "6px",
+                  borderRadius: "150px",
+                  fill: "white",
+                  width: "42px",
+                }}
+              >
+                <Image
+                  width={48}
+                  height={48}
+                  src={google_icon}
+                  alt="Google Icon"
+                  fluid
+                  style={{ fill: "white" }}
+                />
+              </div>
               <Image
                 width={48}
                 height={48}

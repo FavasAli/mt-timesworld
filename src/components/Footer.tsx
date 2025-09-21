@@ -1,5 +1,5 @@
 import { Col, Container, Image, Row } from "react-bootstrap";
-import google_icon from "../assets/google_icon.svg";
+import google_icon from "../assets/google-logo.png";
 import facebook_icon from "../assets/facebook_icon.svg";
 import linkedin_icon from "../assets/linkedin_icon.svg";
 import twitter_icon from "../assets/twitter_icon.svg";
@@ -10,13 +10,24 @@ const Footer = () => {
       <Row>
         <Col>
           <div className="d-flex justify-content-center align-items-center">
-            <Image
-              width={48}
-              height={48}
-              src={google_icon}
-              alt="Google Icon"
-              fluid
-            />
+            <div
+              style={{
+                backgroundColor: "black",
+                padding: "5px",
+                borderRadius: "150px",
+                fill: "white",
+                width: "45px",
+              }}
+            >
+              <Image
+                width={48}
+                height={48}
+                src={google_icon}
+                alt="Google Icon"
+                fluid
+                style={{ fill: "white" }}
+              />
+            </div>
             <Image
               width={48}
               height={48}
